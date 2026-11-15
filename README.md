@@ -52,6 +52,8 @@ Zero runtime dependencies (no `aws-sdk`, no Google client libraries). Zero test 
 
 ## Architecture
 
+![n8n HubSpot Custom Object Retention Archiver Workflow Overview](assets/workflow-overview.png)
+
 ```
  ┌──────────────────┐   ┌────────────────┐
  │ Weekly Schedule  │   │ Manual Trigger │
