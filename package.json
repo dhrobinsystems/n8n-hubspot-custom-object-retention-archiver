@@ -1,0 +1,47 @@
+{
+  "name": "n8n-hubspot-custom-object-retention-archiver",
+  "version": "1.0.0",
+  "description": "Weekly data-hygiene job that finds stale HubSpot custom object records past RETENTION_DAYS, writes checksum-verified immutable backups to AWS S3 and/or Google Sheets, then archives only the verified records. n8n workflow + zero-dependency Node.js CLI mirror with safe-by-default guardrails.",
+  "main": "src/index.js",
+  "bin": {
+    "hubspot-retention-archiver": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dry-run": "node src/index.js --dry-run",
+    "demo": "node src/index.js --input test/fixtures/custom-objects.json --as-of 2026-06-30",
+    "test": "node --test",
+    "build:workflow": "node scripts/build-workflow.js",
+    "check:workflow": "node scripts/build-workflow.js --check"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "n8n",
+    "hubspot",
+    "custom-objects",
+    "data-retention",
+    "archiving",
+    "aws-s3",
+    "sigv4",
+    "google-sheets",
+    "revops",
+    "crm-hygiene"
+  ],
+  "author": "DH Robin (dhRobin Systems)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhrobinsystems/n8n-hubspot-custom-object-retention-archiver.git"
+  },
+  "files": [
+    "src/",
+    "workflows/",
+    "scripts/",
+    "README.md",
+    "LICENSE",
+    "DISCLAIMER.md",
+    ".env.example"
+  ]
+}
