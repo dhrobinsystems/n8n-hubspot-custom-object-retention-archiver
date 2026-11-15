@@ -1,0 +1,205 @@
+{
+  "objectType": "p_mock_subscriptions",
+  "results": [
+    {
+      "id": "1001",
+      "properties": {
+        "hs_object_id": "1001",
+        "subscription_id": "sub-1001",
+        "subscription_name": "Acme Example Corp — Starter Plan",
+        "plan_tier": "Starter Plan",
+        "status": "inactive",
+        "hs_createdate": "2022-11-01T09:00:00.000Z",
+        "hs_lastmodifieddate": "2023-01-15T10:00:00.000Z",
+        "last_engagement_date": "2023-01-10",
+        "retention_hold": null,
+        "billing_contact_email": "ops@acme.example",
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2022-11-01T09:00:00.000Z",
+      "updatedAt": "2023-01-15T10:00:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1002",
+      "properties": {
+        "hs_object_id": "1002",
+        "subscription_id": "sub-1002",
+        "subscription_name": "Acme Example Corp — Pro Plan",
+        "plan_tier": "Pro Plan",
+        "status": "inactive",
+        "hs_createdate": "2023-02-01T09:00:00.000Z",
+        "hs_lastmodifieddate": "2024-03-02T08:30:00.000Z",
+        "last_engagement_date": null,
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2023-02-01T09:00:00.000Z",
+      "updatedAt": "2024-03-02T08:30:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1003",
+      "properties": {
+        "hs_object_id": "1003",
+        "subscription_id": "sub-1003",
+        "subscription_name": "Globex Example Ltd — Team Plan",
+        "plan_tier": "Team Plan",
+        "status": "inactive",
+        "hs_createdate": "2023-05-05T09:00:00.000Z",
+        "hs_lastmodifieddate": "2025-01-20T12:00:00.000Z",
+        "last_engagement_date": "2025-12-01",
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2023-05-05T09:00:00.000Z",
+      "updatedAt": "2025-01-20T12:00:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1004",
+      "properties": {
+        "hs_object_id": "1004",
+        "subscription_id": "sub-1004",
+        "subscription_name": "Initech Example LLC — Starter Plan",
+        "plan_tier": "Starter Plan",
+        "status": "inactive",
+        "hs_createdate": "2024-01-01T09:00:00.000Z",
+        "hs_lastmodifieddate": "2026-05-01T07:00:00.000Z",
+        "last_engagement_date": "2026-04-28",
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2024-01-01T09:00:00.000Z",
+      "updatedAt": "2026-05-01T07:00:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1005",
+      "properties": {
+        "hs_object_id": "1005",
+        "subscription_id": "sub-1005",
+        "subscription_name": "Umbrella Example Holdings — Legacy Plan",
+        "plan_tier": "Legacy Plan",
+        "status": "inactive",
+        "hs_createdate": "2021-01-01T09:00:00.000Z",
+        "hs_lastmodifieddate": "2022-08-08T08:08:00.000Z",
+        "last_engagement_date": null,
+        "retention_hold": "true",
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2021-01-01T09:00:00.000Z",
+      "updatedAt": "2022-08-08T08:08:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1006",
+      "properties": {
+        "hs_object_id": "1006",
+        "subscription_id": "sub-1006",
+        "subscription_name": "Northwind Example Traders — Trial",
+        "plan_tier": "Trial",
+        "status": "inactive",
+        "hs_createdate": "2021-06-06T09:00:00.000Z",
+        "hs_lastmodifieddate": null,
+        "last_engagement_date": null,
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2021-06-06T09:00:00.000Z",
+      "updatedAt": null,
+      "archived": false
+    },
+    {
+      "id": "1007",
+      "properties": {
+        "hs_object_id": "1007",
+        "subscription_id": "sub-1007",
+        "subscription_name": "Brightwater Example Analytics — Pro Plan",
+        "plan_tier": "Pro Plan",
+        "status": "inactive",
+        "hs_createdate": "2023-03-03T09:00:00.000Z",
+        "hs_lastmodifieddate": "2025-06-29T23:59:59.000Z",
+        "last_engagement_date": null,
+        "retention_hold": "false",
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2023-03-03T09:00:00.000Z",
+      "updatedAt": "2025-06-29T23:59:59.000Z",
+      "archived": false
+    },
+    {
+      "id": "1008",
+      "properties": {
+        "hs_object_id": "1008",
+        "subscription_id": "sub-1008",
+        "subscription_name": "Brightwater Example Logistics — Pro Plan",
+        "plan_tier": "Pro Plan",
+        "status": "inactive",
+        "hs_createdate": "2023-03-04T09:00:00.000Z",
+        "hs_lastmodifieddate": "2025-06-30T00:00:00.000Z",
+        "last_engagement_date": null,
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2023-03-04T09:00:00.000Z",
+      "updatedAt": "2025-06-30T00:00:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1009",
+      "properties": {
+        "hs_object_id": "1009",
+        "subscription_id": "sub-1009",
+        "subscription_name": "=HYPERLINK(\"https://attacker.example\",\"click\")",
+        "plan_tier": "Unknown",
+        "status": "inactive",
+        "hs_createdate": "2020-01-01T09:00:00.000Z",
+        "hs_lastmodifieddate": "2021-11-11T11:11:00.000Z",
+        "last_engagement_date": null,
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2020-01-01T09:00:00.000Z",
+      "updatedAt": "2021-11-11T11:11:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "1010",
+      "properties": {
+        "hs_object_id": "1010",
+        "subscription_id": "sub-1010",
+        "subscription_name": "Café Lumière Example SARL — Starter Plan",
+        "plan_tier": "Starter Plan",
+        "status": "inactive",
+        "hs_createdate": "2022-02-02T09:00:00.000Z",
+        "hs_lastmodifieddate": "2024-12-24T18:00:00.000Z",
+        "last_engagement_date": "2024-12-20",
+        "retention_hold": null,
+        "billing_contact_email": null,
+        "seat_count": "5",
+        "mrr": "0"
+      },
+      "createdAt": "2022-02-02T09:00:00.000Z",
+      "updatedAt": "2024-12-24T18:00:00.000Z",
+      "archived": false
+    }
+  ]
+}
